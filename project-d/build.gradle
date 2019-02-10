@@ -1,3 +1,15 @@
+import example.buildsrc.HelloWorldTask
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'example.gcb.gregwhitaker:buildSrc'
+    }
+}
+
 plugins {
     id 'java'
     id 'application'
@@ -16,3 +28,5 @@ repositories {
 dependencies {
 
 }
+
+task hello(type: HelloWorldTask) {}
