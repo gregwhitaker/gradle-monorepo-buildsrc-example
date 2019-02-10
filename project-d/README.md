@@ -16,3 +16,13 @@ If successful, you will see the following in the console:
 
     > Task :run
     This is project-d!
+    
+## Running the HelloWorldTask from buildSrc
+Run the following command to execute the task:
+
+    ./gradlew hello
+    
+If successful, you will see the following in the console:
+
+    > Task :hello
+    Hello from task :hello!
