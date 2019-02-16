@@ -2,7 +2,7 @@
 
 An example of building projects in a monorepo using [Gradle Composite Builds](https://docs.gradle.org/current/userguide/composite_builds.html) that share a common [buildSrc](https://docs.gradle.org/current/userguide/organizing_gradle_projects.html#sec:build_sources).
 
-NOTE: After further investigation and attempts to make this work on a larger, more complex, project it appears that buildSrc on composite builds is not a fully supported feature at this time and YMMV with this approach. Based on Gradle docs it appears that official support for this functionality is in the works.
+NOTE: After further investigation and attempts to make this work on a larger, more complex, project it appears that buildSrc on composite builds is not a fully supported feature at this time and YMMV with this approach. The good news is that according to the Gradle docs it appears that official support for this functionality is in the works.
 
 ## Repository Structure
 The repository contains four projects each with their own Gradle configurations.
